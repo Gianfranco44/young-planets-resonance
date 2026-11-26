@@ -1,0 +1,16 @@
+{
+  "title": "young-planets-resonance: causal re-analysis of near-resonant planet pairs in young planetary systems",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "language": "eng",
+  "license": "MIT",
+  "creators": [{"name": "Cesso, Gianfranco"}],
+  "description": "<p>Code and data for the Research Note <em>Youth Raises the Incidence of Near-resonant Planet Pairs: A Causal Re-analysis</em>. Neighboring planet pairs in the seven transiting multi-planet systems younger than 100 Myr are compared with mature Kepler systems dated by gyrochronology (Bouma et al. 2024) and with mature TESS systems, using g-computation, a system-level permutation test and a negative control placed between low-order commensurabilities. Includes a reproduction of the TTV-free recount of Hansen et al. (2025) updated with the 2026 period of V1298 Tau e and HIP 67522 b/c. Standard-library Python only; NASA Exoplanet Archive snapshot of 2026-11-26.</p>",
+  "keywords": ["exoplanets", "mean-motion resonance", "young planetary systems", "causal inference", "TESS", "Kepler"],
+  "related_identifiers": [
+    {"identifier": "arXiv:2406.06885", "relation": "references", "scheme": "arxiv"},
+    {"identifier": "arXiv:2410.06246", "relation": "references", "scheme": "arxiv"},
+    {"identifier": "arXiv:2510.01332", "relation": "references", "scheme": "arxiv"},
+    {"identifier": "arXiv:2604.05035", "relation": "references", "scheme": "arxiv"}
+  ]
+}

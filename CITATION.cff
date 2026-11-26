@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "young-planets-resonance: causal re-analysis of near-resonant planet pairs in young planetary systems"
+authors:
+  - family-names: Cesso
+    given-names: Gianfranco
+version: 1.0.0
+date-released: 2026-11-26
+license: MIT
+repository-code: "https://github.com/Gianfranco44/young-planets-resonance"
+keywords:
+  - exoplanets
+  - mean-motion resonance
+  - young planetary systems
+  - causal inference
+  - TESS
+  - Kepler
