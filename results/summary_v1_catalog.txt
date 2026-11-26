@@ -1,0 +1,56 @@
+Pares en el rango: 1243  |  con edad, masa y metalicidad: 1050 (jóvenes: 119, sistemas jóvenes: 72)
+
+PELDAÑO 1 · ASOCIACIÓN (lo que se ve, sin ajustar)
+    < 0,1 Gyr:   5/  14 pares cerca de resonancia de 1er orden =  35.7 %
+    0,1-1 Gyr:  20/ 107 pares cerca de resonancia de 1er orden =  18.7 %
+     >= 1 Gyr: 131/ 940 pares cerca de resonancia de 1er orden =  13.9 %
+   (Dai et al. 2024: ~70 %, ~24 %, ~15 %, con su propia selección y ventana)
+
+   ¿Jóvenes y maduros son comparables? (positividad)
+    jóvenes: Kepler 72, K2 7, TESS 32, VR 5, Imagen 3, Otra 0 | masa media 1.00 Msol | [Fe/H] media -0.023 | log P medio 1.20
+    maduros: Kepler 643, K2 37, TESS 109, VR 124, Imagen 0, Otra 18 | masa media 0.90 Msol | [Fe/H] media +0.001 | log P medio 1.02
+
+PELDAÑO 2 · INTERVENCIÓN: P(resonante | do(edad))  [g-computation, IC 95 % bootstrap por sistema]
+   Sin ajustar (solo asociación, para comparar)
+      n = 1050 pares (119 jóvenes)  |  do(joven) 21.0 %  vs  do(maduro) 14.0 %
+      diferencia +7.0 pp [-1.4, +15.7]  |  razón 1.50 [0.90, 2.24]  |  E-value 2.38
+   AJUSTADO por facilidad, masa, metalicidad y período  <- estimación principal
+      n = 1050 pares (119 jóvenes)  |  do(joven) 20.2 %  vs  do(maduro) 14.0 %
+      diferencia +6.2 pp [-1.4, +13.7]  |  razón 1.44 [0.90, 2.04]  |  E-value 2.24
+
+PELDAÑO 3 · CONTRAFÁCTICO: efecto sobre los jóvenes (ATT)
+   De 119 pares jóvenes, 25 están en resonancia (21.0 %).
+   Si esos mismos sistemas fueran maduros, estarían en resonancia 14.5 % → la edad explica +6.5 pp [-1.7, +14.8]
+
+CONTROL NEGATIVO (ventanas en los huecos entre resonancias: 1.553-1.600, 1.701-1.752, 1.761-1.815, 1.824-1.879, 1.889-1.946)
+   Ajustado, placebo limpio
+      n = 1050 pares (119 jóvenes)  |  do(joven) 15.6 %  vs  do(maduro) 16.8 %
+      diferencia -1.2 pp [-8.0, +4.7]  |  razón 0.93 [0.50, 1.28]  |  E-value 1.37
+
+SENSIBILIDAD
+   Solo edades con error relativo < 50 %
+      n = 536 pares (36 jóvenes)  |  do(joven) 21.3 %  vs  do(maduro) 14.4 %
+      diferencia +6.9 pp [-10.1, +25.3]  |  razón 1.48 [0.35, 2.94]  |  E-value 2.32
+   Ventana más ancha (-1 % / +3 %)
+      n = 1050 pares (119 jóvenes)  |  do(joven) 24.1 %  vs  do(maduro) 16.6 %
+      diferencia +7.5 pp [-1.6, +16.7]  |  razón 1.45 [0.91, 2.03]  |  E-value 2.26
+   Sin sistemas de imagen directa
+      n = 1047 pares (116 jóvenes)  |  do(joven) 20.3 %  vs  do(maduro) 14.1 %
+      diferencia +6.2 pp [-1.1, +14.5]  |  razón 1.44 [0.93, 2.04]  |  E-value 2.24
+   Solo Kepler + K2 + TESS (tránsitos)
+      n = 900 pares (111 jóvenes)  |  do(joven) 20.2 %  vs  do(maduro) 14.2 %
+      diferencia +5.9 pp [-2.7, +14.2]  |  razón 1.42 [0.82, 2.02]  |  E-value 2.19
+
+DISTRIBUCIÓN GENERAL Y DISEÑO LOCAL
+   ¿Jóvenes y maduros reparten distinto los cocientes en general?
+    jóvenes: mediana 2.02 | cuartiles 1.58-2.53 | % con r < 2,2: 61 %
+    maduros: mediana 2.10 | cuartiles 1.70-2.79 | % con r < 2,2: 57 %
+   Diseño local: solo pares a +-10 % de una resonancia de 1er orden; la pregunta pasa a ser
+   'dado que el par está cerca, ¿cae justo en la resonancia?'. Así se neutraliza que jóvenes
+   y maduros repartan distinto los cocientes a gran escala.
+   Ajustado, diseño local
+      n = 499 pares (65 jóvenes)  |  do(joven) 37.1 %  vs  do(maduro) 30.1 %
+      diferencia +7.0 pp [-5.3, +16.9]  |  razón 1.23 [0.85, 1.61]  |  E-value 1.77
+   Ajustado, diseño local, solo edades con error < 50 %
+      n = 254 pares (17 jóvenes)  |  do(joven) 36.6 %  vs  do(maduro) 31.1 %
+      diferencia +5.5 pp [-21.8, +40.3]  |  razón 1.18 [0.33, 2.34]  |  E-value 1.63

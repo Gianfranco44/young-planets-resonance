@@ -1,0 +1,14 @@
+
+Kepler maduro (girocronología): ventana de Dai 46/247 = 18.6 %, mi ventana 33/247 = 13.4 %
+
+A. Recuento de Hansen et al. (efeméride vieja de V1298 Tau e, sin HIP 67522)
+   ventana de Dai (-1,5/+3 %)   jóvenes 3/9 =   33 % | ajustado +15.2 pp [-11.5; +55.9] | permutación p = 0.1574
+   mi ventana (-0,5/+2,5 %)     jóvenes 3/9 =   33 % | ajustado +18.6 pp [-3.4; +56.6] | permutación p = 0.0650
+
+B. A + período de V1298 Tau e de Livingston et al. 2026
+   ventana de Dai (-1,5/+3 %)   jóvenes 4/9 =   44 % | ajustado +25.9 pp [-6.5; +57.6] | permutación p = 0.0444
+   mi ventana (-0,5/+2,5 %)     jóvenes 4/9 =   44 % | ajustado +28.9 pp [-4.8; +59.7] | permutación p = 0.0140
+
+C. B + HIP 67522 (muestra actual completa, solo tránsito + AU Mic e)
+   ventana de Dai (-1,5/+3 %)   jóvenes 5/10 =   50 % | ajustado +31.2 pp [-1.1; +58.8] | permutación p = 0.0160
+   mi ventana (-0,5/+2,5 %)     jóvenes 4/10 =   40 % | ajustado +24.5 pp [-5.1; +54.5] | permutación p = 0.0160

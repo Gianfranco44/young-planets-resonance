@@ -1,0 +1,34 @@
+Pares Kepler con edad por rotación: 412 (jóvenes 33, en 24 sistemas)
+Con el criterio de calidad de Bouma et al.: 305 (jóvenes 26, en 20 sistemas)  <- muestra principal
+
+PELDAÑO 1 · ASOCIACIÓN (muestra principal)
+    0,1-1 Gyr:   5/  26 =  19.2 %
+     >= 1 Gyr:  36/ 279 =  12.9 %
+    jóvenes: Teff media 5062 K | [Fe/H] media -0.012 | log P medio 0.78
+    maduros: Teff media 5181 K | [Fe/H] media +0.005 | log P medio 0.87
+
+PELDAÑO 2 · INTERVENCIÓN (ajuste por Teff, [Fe/H] y log P; bootstrap por sistema)
+   Principal
+      n = 305 (26 jóvenes) | do(joven) 19.3 % vs do(maduro) 12.9 % | diferencia +6.4 pp [-7.7; +21.7] | razón 1.50 [0.43; 2.85] | E-value 2.36
+
+PELDAÑO 3 · CONTRAFÁCTICO (efecto sobre los jóvenes)
+   5 de 26 pares jóvenes en resonancia (19.2 %); si fueran maduros: 12.8 % -> la edad explica +6.4 pp [-7.6; +21.5]
+
+CONTROL NEGATIVO (ventanas en los huecos entre resonancias)
+   Placebo limpio
+      n = 305 (26 jóvenes) | do(joven) 19.3 % vs do(maduro) 20.1 % | diferencia -0.7 pp [-17.2; +12.7] | razón 0.96 [0.15; 1.74] | E-value 1.23
+
+DISEÑO LOCAL Y SENSIBILIDAD
+   Local: solo pares a +-10 % de una resonancia
+      n = 147 (14 jóvenes) | do(joven) 35.7 % vs do(maduro) 27.1 % | diferencia +8.6 pp [-19.5; +30.9] | razón 1.32 [0.32; 2.29] | E-value 1.97
+   Sin filtro de calidad
+      n = 412 (33 jóvenes) | do(joven) 17.4 % vs do(maduro) 11.9 % | diferencia +5.5 pp [-8.2; +18.3] | razón 1.46 [0.32; 2.64] | E-value 2.29
+   'Joven seguro' (mediana + 1 sigma < 1 Gyr)
+      n = 305 (20 jóvenes) | do(joven) 19.9 % vs do(maduro) 13.0 % | diferencia +6.9 pp [-12.8; +20.1] | razón 1.53 [0.00; 2.79] | E-value 2.44
+
+Pares jóvenes en resonancia (muestra principal):
+   Kepler-968 c / Kepler-968 d      K01833.03 / K01833.02  r = 1.3459  edad 328 Myr
+   Kepler-1576 b / -                K04246.01 / K04246.02  r = 1.2536  edad 559 Myr
+   Kepler-51 c / Kepler-51 d        K00620.03 / K00620.02  r = 1.5258  edad 623 Myr
+   Kepler-221 b / Kepler-221 c      K00720.04 / K00720.01  r = 2.0353  edad 636 Myr
+   Kepler-1065 c / Kepler-1065 b    K02034.02 / K02034.01  r = 1.5227  edad 995 Myr

@@ -1,0 +1,47 @@
+Soporte común: P_externo <= 50 d  |  [Fe/H] imputada como solar en 0 sistemas
+
+PELDAÑO 1 · ASOCIACIÓN
+   muy_joven        7 sistemas,  10 pares | en resonancia   5 (50.0 %) | ventana de Dai   7 (70.0 %)
+   muy_joven_tr     7 sistemas,   9 pares | en resonancia   4 (44.4 %) | ventana de Dai   5 (55.6 %)
+   adolescente     24 sistemas,  38 pares | en resonancia   9 (23.7 %) | ventana de Dai  10 (26.3 %)
+   maduro_kepler  157 sistemas, 247 pares | en resonancia  33 (13.4 %) | ventana de Dai  46 (18.6 %)
+   maduro_tess     66 sistemas,  94 pares | en resonancia  16 (17.0 %) | ventana de Dai  17 (18.1 %)
+   Pares muy jóvenes:
+     HIP 67522       17 Myr    6.959 ->  14.335 d  r = 2.0598   (solo ventana Dai)
+     AU Mic          19 Myr    8.463 ->  12.736 d  r = 1.5048  [incluye planeta por TTV] RESONANTE
+     AU Mic          19 Myr   12.736 ->  18.859 d  r = 1.4808  [incluye planeta por TTV] (solo ventana Dai)
+     V1298 Tau       20 Myr    8.249 ->  12.401 d  r = 1.5033   RESONANTE
+     V1298 Tau       20 Myr   12.401 ->  24.140 d  r = 1.9466   
+     V1298 Tau       20 Myr   24.140 ->  48.678 d  r = 2.0165   RESONANTE
+     HD 109833       27 Myr    9.189 ->  13.900 d  r = 1.5128   RESONANTE
+     TOI-942         53 Myr    4.324 ->  10.156 d  r = 2.3487   
+     TIC 434398831   61 Myr    3.686 ->   6.210 d  r = 1.6851   
+     TOI-6109        75 Myr    5.690 ->   8.539 d  r = 1.5006   RESONANTE
+
+PELDAÑO 2 · INTERVENCIÓN: muy jóvenes (< 100 Myr) contra maduros
+   Principal: contra Kepler maduro (girocronología)
+      10 pares tratados / 257 | do(joven) 47.3 % vs do(maduro) 13.4 % | diferencia +33.9 pp [+5.0; +58.6] | razón 3.53 | E-value 6.52 | permutación por sistema p = 0.0014
+   Triangulación: contra TESS maduro (mismo instrumento que los jóvenes)
+      10 pares tratados / 104 | do(joven) 49.1 % vs do(maduro) 17.1 % | diferencia +32.0 pp [+3.8; +59.9] | razón 2.87 | E-value 5.20 | permutación por sistema p = 0.0214
+
+PELDAÑO 3 · CONTRAFÁCTICO (sobre los muy jóvenes, comparación principal)
+   5 de 10 pares muy jóvenes en resonancia (50 %). Si esos sistemas fueran maduros: 15 %. La edad explica +35 pp [+5; +59]
+
+CONTROL NEGATIVO (ventanas en los huecos entre resonancias: 1.553-1.600, 1.701-1.752, 1.761-1.815, 1.824-1.879, 1.889-1.946)
+   Placebo limpio
+      10 pares tratados / 257 | do(joven) 0.1 % vs do(maduro) 21.5 % | diferencia -21.4 pp [-27.0; -16.1] | razón 0.00 | E-value 712.27 | permutación por sistema p = 0.9612
+   Diseño local (solo pares a +-10 % de una resonancia)
+      8 pares tratados / 130 | do(joven) 55.6 % vs do(maduro) 27.5 % | diferencia +28.1 pp [-3.4; +52.2] | razón 2.02 | E-value 3.46 | permutación por sistema p = 0.0360
+
+SENSIBILIDAD
+   Ventana de Dai (-1,5 % / +3 %)
+      10 pares tratados / 257 | do(joven) 68.9 % vs do(maduro) 18.6 % | diferencia +50.3 pp [+21.0; +76.8] | razón 3.70 | E-value 6.85
+   Solo planetas en tránsito (pares rearmados sin los hallados por TTV)
+      9 pares tratados / 256 | do(joven) 42.5 % vs do(maduro) 13.4 % | diferencia +29.1 pp [-2.3; +56.1] | razón 3.18 | E-value 5.80 | permutación por sistema p = 0.0062
+   Sin V1298 Tau
+      7 pares tratados / 254 | do(joven) 42.0 % vs do(maduro) 13.4 % | diferencia +28.6 pp [+0.9; +63.4] | razón 3.14 | E-value 5.73 | permutación por sistema p = 0.0158
+   Dejando afuera un sistema joven por vez: diferencia entre +27.6 pp (sin TOI-6109) y +39.4 pp (sin HIP 67522)
+
+ADOLESCENTES (0,1-1 Gyr: cúmulos + girocronología) contra Kepler maduro
+   Adolescentes
+      38 pares tratados / 285 | do(joven) 23.9 % vs do(maduro) 13.3 % | diferencia +10.6 pp [-7.2; +27.7] | razón 1.79 | E-value 2.98 | permutación por sistema p = 0.0776

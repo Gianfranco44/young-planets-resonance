@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# Bouma et al. (2024) table: downloaded by fetch_data.py, not redistributed
+data/bouma2024_koi_ages.csv
