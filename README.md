@@ -1,5 +1,7 @@
 # Youth and near-resonant planet pairs: a causal re-analysis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24558579.svg)](https://doi.org/10.5281/zenodo.24558579)
+
 Code and data for the Research Note *"Youth Raises the Incidence of Near-resonant Planet Pairs: A Causal Re-analysis"* (in preparation for RNAAS).
 
 **Question.** Are planet pairs in young systems more often near a first-order mean-motion commensurability *because* the systems are young, once confounders are adjusted for and a negative control is applied?
@@ -76,6 +78,10 @@ Code comments, variable names and console output are in Spanish.
 - Hansen, B. M. S., Yu, T.-Y., Nagarajan, N., & Hasegawa, Y. 2025, [arXiv:2510.01332](https://arxiv.org/abs/2510.01332)
 - Choksi, N., Lithwick, Y., Chiang, E., & Li, R. 2026, [arXiv:2604.05035](https://arxiv.org/abs/2604.05035)
 - Livingston, J. H., et al. 2026, Nature, 649, 310
+
+## How to cite
+
+Cesso, G. 2026, *young-planets-resonance: causal re-analysis of near-resonant planet pairs in young planetary systems*, v1.0.0, Zenodo, [doi:10.5281/zenodo.24558579](https://doi.org/10.5281/zenodo.24558579). All versions: [doi:10.5281/zenodo.24558578](https://doi.org/10.5281/zenodo.24558578).
 
 ## License and authorship
 

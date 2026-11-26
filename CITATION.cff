@@ -5,6 +5,11 @@ authors:
   - family-names: Cesso
     given-names: Gianfranco
 version: 1.0.0
+doi: 10.5281/zenodo.24558578
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24558579
+    description: "Version 1.0.0"
 date-released: 2026-11-26
 license: MIT
 repository-code: "https://github.com/Gianfranco44/young-planets-resonance"
