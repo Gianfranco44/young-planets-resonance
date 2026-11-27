@@ -70,13 +70,13 @@ Code comments, variable names and console output are in Spanish.
 ## Data sources
 
 - NASA Exoplanet Archive (Akeson et al. 2013, PASP 125, 989), tables `pscomppars` and `cumulative`, queried on 2026-11-26. This research has made use of the NASA Exoplanet Archive, which is operated by the California Institute of Technology, under contract with the National Aeronautics and Space Administration under the Exoplanet Exploration Program.
-- Bouma, L. G., et al. 2024, *Ages of Stars and Planets in the Kepler Field Younger Than Four Billion Years*, [arXiv:2410.06246](https://arxiv.org/abs/2410.06246).
+- Bouma, L. G., et al. 2024, *Ages of Stars and Planets in the Kepler Field Younger Than Four Billion Years*, ApJ, 976, 234 ([arXiv:2410.06246](https://arxiv.org/abs/2410.06246)).
 
 ## Related work
 
 - Dai, F., et al. 2024, AJ, 168, 239
 - Hansen, B. M. S., Yu, T.-Y., Nagarajan, N., & Hasegawa, Y. 2025, [arXiv:2510.01332](https://arxiv.org/abs/2510.01332)
-- Choksi, N., Lithwick, Y., Chiang, E., & Li, R. 2026, [arXiv:2604.05035](https://arxiv.org/abs/2604.05035)
+- Choksi, N., Lithwick, Y., Chiang, E., & Li, R. 2026, MNRAS, [doi:10.1093/mnras/stag1884](https://doi.org/10.1093/mnras/stag1884)
 - Livingston, J. H., et al. 2026, Nature, 649, 310
 
 ## How to cite
